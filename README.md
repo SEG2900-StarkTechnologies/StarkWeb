@@ -1,2 +1,2 @@
 # StarkWeb
-Webs
+Website
