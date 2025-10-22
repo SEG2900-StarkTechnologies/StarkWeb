@@ -1,7 +1,7 @@
 # Stark Technologies
 Member Names:
 - Ghotra, Jaskaran (300491083)
-- Gueye, Fatoumata Bintou
+- Gueye, Fatoumata Bintou (300509259)
 - Meziane, Mounir
 - Ringuette, Max
 - Tameze Azonmo Fofie, Natacha
