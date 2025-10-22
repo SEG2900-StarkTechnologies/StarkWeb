@@ -2,9 +2,9 @@
 Member Names:
 - Ghotra, Jaskaran (300491083)
 - Gueye, Fatoumata Bintou (300509259)
-- Meziane, Mounir
+- Meziane, Mounir (300480699)
 - Ringuette, Max
-- Tameze Azonmo Fofie, Natacha
+- Tameze Azonmo Fofie, Natacha (300477730)
 
 Product Name: Iron Man Suit
 
