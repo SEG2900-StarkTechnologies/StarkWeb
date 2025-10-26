@@ -1,15 +1,92 @@
-<!doctype html>
-
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <title>Pricing Page</title>
+  <title>
+    StarkWeb Prices
+  </title>
+  <style>
+    body {
+      background: linear-gradient(135deg, #0a0a0a, #1a1a2e, #16213e);
+      color: #e0e0e0;
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+      transition: background 0.5s ease;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .main-title {
+      font-family: 'Freestyle Script', cursive;
+      font-size: 4rem;
+      text-align: center;
+      margin: 40px 0;
+      text-shadow: 6px 6px 4px rgba(0, 0, 0, 0.5);
+      display: flex;
+      flex-direction: column;
+      position: fixed;
+      top: 6%;
+
+    }
+
+    .editions-container {
+      display: flex;
+      justify-content: center;
+      position: fixed;
+      top: 30%;
+      gap: 150px;
+      margin: 50px;
+      max-width: 1200px;
+      padding: 0 20px;
+
+    }
+
+    .edition {
+      text-align: center;
+      flex: 0 1 auto;
+      max-width: 450px;
+    }
+
+    .edition-title {
+      font-size: 32px;
+      font-weight: bold;
+      margin-bottom: 16px;
+      color: rgb(255, 255, 255);
+      white-space: nowrap;
+
+    }
+
+    .edition-description {
+      font-size: 1.1rem;
+      line-height: 24px;
+      margin-top: 15px;
+      color: rgb(157, 155, 155);
+    }
+  </style>
+
+
+
 </head>
 
 <body>
-  <h1>Pricing Page</h1>
-  <p>This is The Pricing Page.</p>
+  <h1 class="main-title"> Choose Your Suit</h1>
+  <div class="editions-container">
+    <div class="edition">
+      <p class="edition-title"> Community Edition</p>
+      <p class="edition-description"> 999999999999</p>
+    </div>
+    <div class="edition">
+      <p class="edition-title"> Military Edition</p>
+      <p class="edition-description"> 9999999999999</p>
+    </div>
+
+
+  </div>
+
 </body>
 
 </html>
