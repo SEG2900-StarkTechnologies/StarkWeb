@@ -1,15 +1,190 @@
-<!doctype html>
-
-<html lang="en">
-
+<!DOCTYPE html>
+<html lang="fr">
 <head>
-  <meta charset="utf-8">
-  <title>Features Page</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <style>
+    /* Style général */
+    html, body {
+      margin: 0;
+      height: 100%;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      display: flex;
+    }
+
+    nav {
+      width: 220px;
+      background-color: #2c3e50;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      padding: 40px 20px;
+    }
+
+    .logo {
+      font-weight: bold;
+      font-size: 26px;
+      color: #1abc9c;
+      margin-bottom: 40px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    .menu {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .menu a {
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+      cursor: pointer;
+      transition: color 0.2s ease;
+    }
+
+    .menu a:hover {
+      color: #1abc9c;
+    }
+
+    /* Contenu principal */
+    main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      background-color: #ecf0f1;
+      padding: 40px;
+    }
+
+    #features-content {
+      display: none;
+      flex: 1; /* Pour que le footer soit poussé en bas */
+      display: flex;
+      flex-direction: column;
+    }
+
+    h1 {
+      color: #2c3e50;
+      margin-bottom: 30px;
+    }
+
+    .features-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: stretch;
+      gap: 20px;
+      flex-wrap: wrap;
+      flex: 1; /* occupe tout l’espace disponible */
+    }
+
+    section {
+      background-color: white;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      flex: 1 1 30%;
+      min-width: 250px;
+      max-height: 400px;
+      overflow-y: auto;
+      overflow-wrap: break-word;
+      box-sizing: border-box;
+    }
+
+    section h2 {
+      color: #1abc9c;
+      margin-top: 0;
+    }
+
+    section p {
+      color: #333;
+      line-height: 1.5;
+    }
+
+    footer {
+      background-color: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      font-size: 14px;
+      border-radius: 8px;
+      margin-top: 20px;
+      flex-shrink: 0; /* Toujours visible en bas */
+    }
+  </style>
 </head>
-
 <body>
-  <h1>Welcome to our Feature Page!</h1>
-  <p>This is the feature page.</p>
-</body>
 
+<nav>
+  <div class="logo">STARK</div>
+  <div class="menu">
+    <a id="features-link">Features</a>
+    <a id="pricing-link">Pricing</a>
+    <a id="team-link">Team</a>
+  </div>
+</nav>
+
+<main>
+  <div id="features-content">
+    <h1>Features</h1>
+    <div class="features-container">
+      <section id="feature1">
+        <h2>Miniaturized Arc Reactor</h2>
+        <p>The core energy source of Stark technologies. Compact, powerful, and eco-friendly, it powers all our innovations.</p>
+      </section>
+
+      <section id="feature2">
+        <h2>Made of Recycled Materials</h2>
+        <p>Our products are made from recycled materials, reducing environmental impact and promoting sustainable production.</p>
+      </section>
+
+      <section id="feature3">
+        <h2>Pollution Free</h2>
+        <p>Our technologies are designed to operate without harmful emissions, protecting the environment and everyone’s health.</p>
+      </section>
+    </div>
+
+    <footer>
+      © 2025 Stark Industries — All rights reserved.
+    </footer>
+  </div>
+</main>
+
+<script>
+  const featuresLink = document.getElementById('features-link');
+  const featuresContent = document.getElementById('features-content');
+
+  featuresLink.addEventListener('click', () => {
+    featuresContent.style.display = 'flex';
+  });
+</script>
+
+</body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
