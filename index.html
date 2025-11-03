@@ -1,15 +1,55 @@
-<!doctype html>
-
-<html lang="en">
-
+<!DOCTYPE html>
 <head>
-  <meta charset="utf-8">
-  <title>Home Page</title>
-</head>
+  <meta charset="UTF-8">
+  <title>Homepage</title>
+  
+  <style>
+  #Homepage-Content {
+    text-align: center;
+    background-image: url('');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: black;
+    padding: 20px;
+  }
+  </style>
+
+ </head>
+
 
 <body>
-  <h1>Welcome to our Website!</h1>
-  <p>This is the home page.</p>
+
+<nav>
+  <div class="logo">STARK</div>
+  <div class="menu">
+    <a id="features-link">Features</a>
+    <a id="pricing-link">Pricing</a>
+    <a id="team-link">Team</a>
+  </div>
+</nav>
+
+<main>
+  <div id="Homepage-Content">
+  <h1>Home Page</h1>
+
+    <footer>
+      © 2025 Stark Industries — All rights reserved.
+    </footer>
+   
+  </div>
+ 
+</main>
+  
+<script>
+  const featuresLink = document.getElementById('features-link');
+  const featuresContent = document.getElementById('features-content');
+
+  featuresLink.addEventListener('click', () => {
+    featuresContent.style.display = 'flex';
+  });
+</script>
+  
 </body>
 
 </html>
