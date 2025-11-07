@@ -16,8 +16,8 @@
   }
 
 .navbar {
-    background: #491919;
-    padding: 15px 0;
+    background: transparent;
+    padding: 0;
     text-align: center;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
