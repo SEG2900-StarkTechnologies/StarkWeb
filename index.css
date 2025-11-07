@@ -16,34 +16,34 @@
   }
 
 .navbar {
-  background: linear-gradient(90deg, purple, blue, red);
-  padding: 15px 0;
-  text-align: center;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    background: #491919;
+    padding: 15px 0;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
 .navbar ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 .navbar li {
-  display: inline;
-  margin: 0 20px;
+    display: inline;
+    margin: 0 20px;
 }
 
 .navbar a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.3s;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.3s;
 }
 
 .navbar a:hover {
-  text-decoration: underline;
-  font-size: 19px;
+    text-decoration: underline;
+    font-size: 19px;
 }
   
 #Homepage-Content {
