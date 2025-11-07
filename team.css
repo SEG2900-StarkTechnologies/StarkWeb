@@ -1,10 +1,9 @@
 /* Background gradient violet-blue-red */
 body {
-    font-family: "Helvetica Neue", Arial, sans-serif;
-    background: linear-gradient(135deg, #6a0dad, #1e90ff, #ff0033);
+    background: linear-gradient(135deg, #0a0a0a, #1a1a2e, #16213e);
     background-size: 400% 400%;
     animation: gradientMove 10s ease infinite;
-    color: #333;
+    color: #ffffff;
     margin: 0;
     padding: 0;
 }
@@ -45,7 +44,7 @@ h1 {
 .member {
     display: flex;
     align-items: flex-start;
-    background: white;
+    background: rgb(0, 0, 0);
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     margin-bottom: 30px;
@@ -72,7 +71,7 @@ h1 {
 }
 
 .name {
-    color: #7e3ff2;
+    color: #a1a1bd;
     margin-top: 0;
 }
 
@@ -84,7 +83,7 @@ p {
 .email {
     display: inline-block;
     margin-top: 8px;
-    color: #1e90ff;
+    color: #336ca5;
     font-weight: bold;
     text-decoration: none;
     transition: color 0.3s ease;
@@ -109,9 +108,11 @@ p {
 
 /* Navigation Bar */
 .navbar {
-    background: transparent;
-    padding: 0;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 15px 0;
     text-align: center;
+    width: 100%;
+    backdrop-filter: blur(10px);
 }
 
 .navbar ul {
