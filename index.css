@@ -1,3 +1,7 @@
+body, html {
+  margin: 0;
+}
+
 #Homepage-Title {
     position: relative; 
     display: flex;
@@ -5,21 +9,24 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: 30;
-    background-image: url('mockups/IMG_0035.jpeg');
+    font-size: 10;
+    background-image: url('IMG_0035.jpeg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     color: white;
-    padding: 20px;
+    padding: 0px;
     height: 200px; 
+  }
+
+  #Homepage-Title #title {
+    font-size: xx-large;
   }
 
 .navbar {
     background: transparent;
     padding: 0;
     text-align: center;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
 .navbar ul {
@@ -44,11 +51,6 @@
 .navbar a:hover {
     text-decoration: underline;
     font-size: 19px;
-}
-  
-#Homepage-Content {
-  text-align: center;
-  color: black;
 }
   
 footer {
