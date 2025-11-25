@@ -1,11 +1,11 @@
-/* Background gradient violet-blue-red */
-body {
-    background: linear-gradient(135deg, #0a0a0a, #1a1a2e, #16213e);
-    background-size: 400% 400%;
-    animation: gradientMove 10s ease infinite;
-    color: #ffffff;
+body,
+html {
     margin: 0;
-    padding: 0;
+    background: linear-gradient(135deg, #0a0a0a, #d5d7ec, #090909);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #000000;
 }
 
 @keyframes gradientMove {
@@ -24,7 +24,7 @@ body {
 
 header {
     text-align: center;
-    color: white;
+    color: rgb(0, 0, 0);
     padding: 40px 0;
     text-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
@@ -44,7 +44,7 @@ h1 {
 .member {
     display: flex;
     align-items: flex-start;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(254, 254, 254, 0.1);
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     margin-bottom: 30px;
@@ -71,7 +71,7 @@ h1 {
 }
 
 .name {
-    color: #a1a1bd;
+    color: #000000;
     margin-top: 0;
 }
 
@@ -83,7 +83,7 @@ p {
 .email {
     display: inline-block;
     margin-top: 8px;
-    color: #336ca5;
+    color: #2d537c;
     font-weight: bold;
     text-decoration: none;
     transition: color 0.3s ease;
